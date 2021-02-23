@@ -1,0 +1,128 @@
+.h1 {
+  @apply text-2xl font-normal leading-normal mt-1 mb-3;
+}
+
+
+.tabMenu {
+
+  @apply text-custom-primary font-normal cursor-pointer px-5 py-6 h-full inline-flex justify-center items-center;
+
+}
+
+.tabMenuOpen {
+  @apply shadow-none bg-white text-custom-primary;
+}
+
+@screen md {
+
+  .tabMenu {
+    &:hover{
+      @apply shadow-lg;
+    }
+  }
+
+  .tabMenuOpen {
+    @apply shadow-lg;
+  }
+
+}
+
+.tabCategory {
+
+  @apply text-left flex items-center;  
+
+  &:hover{
+    @apply text-custom-secondary;
+  }
+
+  &:focus{
+    @apply outline-none;
+  }
+
+}
+
+
+
+
+.accordion {
+  @apply border border-gray-100;
+
+  .accordion_heading {
+    @apply flex items-center focus:outline-none pl-6 border-b border-gray-100;
+  }
+}
+
+.accordion_2 {
+   @apply bg-transparent w-full;
+
+  .accordion_heading_2 {
+    @apply flex justify-between items-stretch outline-none focus:outline-none pl-6 py-3 border-0 bg-white;
+    //@apply flex justify-between items-stretch focus:outline-none pl-6 py-5;
+  }
+
+  .accordion_subheading{
+    @apply flex px-0 w-full space-x-3 outline-none focus:outline-none items-stretch border-0;
+  }
+}
+
+.accordion_3 {
+  @apply bg-transparent w-full;
+
+  .accordion_heading_3 {
+    @apply flex justify-between items-stretch outline-none focus:outline-none pl-6 py-3 border-0;
+    //@apply flex justify-between items-stretch focus:outline-none pl-6 py-5;
+  }
+
+  .accordion_subheading_3{
+    @apply flex px-0 w-full space-x-3 outline-none focus:outline-none items-stretch border-0;
+  }
+}
+
+.courseTabCol{
+  list-style: lower-alpha;
+  -webkit-columns: 2;  
+  padding-left: 2%;
+  padding-right: 3%;
+  background-color: #F0F4F8 !important;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+}
+
+.arrowTabCol{
+  fill: #017AA1;
+  width: 9.72mm;
+  height: 6mm;
+  margin-left: 130px;
+
+}
+
+.fontCol{
+  font-weight: 400px !important;
+  font-size: 12px !important;
+}
+
+
+.lsSize{
+  background-color: #FFFFFF !important;
+  margin-top: 2%;
+  margin-bottom: 0%;
+  width: 50mm;
+  height: 12mm;
+}
+
+.imageAlign{
+  background-color: #E6E6E6;
+  display: block !important;
+  width: 12mm!important;
+  height: 12mm !important;
+  margin-left: -14% !important;
+}
+
+
+
+
+
+
+
+
